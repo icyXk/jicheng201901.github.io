@@ -1,0 +1,19 @@
+digraph G{
+	subgraph cluster0{
+		label="CustomAnimationConfig"
+		CustomAnimationPlay_n
+	}
+	subgraph cluster1{
+		label="CustomAnimationPlay"
+		CustomAnimationPath_n
+	}
+	subgraph cluster2{
+		label="CustomAnimationPath"
+		target
+		AnimationCurve_n
+	}
+	subgraph cluster3{
+		label="AnimationCurve"
+		Unity_Support
+	}
+}
